@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Realsee Galois — New User Guide</title>
+  <meta name="description" content="Professional LiDAR onboarding guide for first-time Realsee Galois capture users." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============================ HERO ============================ -->
+  <header class="hero section" id="hero">
+    <div class="container hero__grid">
+      <div class="hero__content">
+        <p class="eyebrow label-sm">New User Guide · Galois LiDAR Scanner</p>
+        <h1 class="hero__title">From first boot to<br />first scan, <span class="text-primary">step by step.</span></h1>
+        <p class="body-lg hero__lead">
+          Everything a first-time LiDAR capture operator needs: unbox, calibrate, capture,
+          and deliver a production-grade 3D tour — in one operational guide.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#onboarding-journey">Start the 7-step journey</a>
+          <a class="btn btn--secondary" href="#quick-access-resources">Jump to resources</a>
+        </div>
+        <ul class="hero__meta body-md">
+          <li><span class="dot dot--success"></span>7 guided steps</li>
+          <li><span class="dot dot--primary"></span>Field-checked standards</li>
+          <li><span class="dot dot--dark"></span>Pro deliverables</li>
+        </ul>
+      </div>
+
+      <div class="hero__visual" aria-hidden="true">
+        <div class="hero__device">
+          <div class="hero__scanline"></div>
+          <div class="hero__device-label label-sm">GALOIS · POINT CLOUD PREVIEW</div>
+          <div class="hero__points">
+            <i style="--x:18%;--y:30%;--d:0s"></i><i style="--x:42%;--y:18%;--d:.6s"></i>
+            <i style="--x:64%;--y:36%;--d:1.2s"></i><i style="--x:30%;--y:56%;--d:.9s"></i>
+            <i style="--x:74%;--y:62%;--d:1.8s"></i><i style="--x:52%;--y:74%;--d:.3s"></i>
+            <i style="--x:85%;--y:22%;--d:1.5s"></i><i style="--x:12%;--y:72%;--d:2.1s"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ==================== ONBOARDING JOURNEY ==================== -->
+    <section class="section" id="onboarding-journey">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow label-sm">Process Map</p>
+          <h2 class="section__title">Your 7-step onboarding journey</h2>
+          <p class="body-md section__sub">
+            Follow the sequence end to end. Each step unlocks the next — no ambiguity, no guesswork.
+          </p>
+        </header>
+
+        <div class="journey">
+          <!-- animated dashed workflow path (desktop ornament) -->
+          <svg class="journey__path" viewBox="0 0 1180 120" fill="none" aria-hidden="true">
+            <path id="journeyPath" d="M40 60 C 220 10, 360 110, 590 60 S 960 10, 1140 60" />
+          </svg>
+
+          <article class="journey__step">
+            <div class="journey__badge">01</div>
+            <span class="journey__icon" aria-hidden="true">⚙</span>
+            <h3 class="card-title">Setup &amp; Account</h3>
+            <p class="body-md">Create your Realsee workspace, install the console app, and sign in on your capture device.</p>
+          </article>
+
+          <article class="journey__step">
+            <div class="journey__badge">02</div>
+            <span class="journey__icon" aria-hidden="true">▣</span>
+            <h3 class="card-title">Hardware Check</h3>
+            <p class="body-md">Charge Galois fully, insert the storage card, and run the built-in calibration self-test.</p>
+          </article>
+
+          <article class="journey__step">
+            <div class="journey__badge">03</div>
+            <span class="journey__icon" aria-hidden="true">⇄</span>
+            <h3 class="card-title">Connection</h3>
+            <p class="body-md">Pair the scanner with your phone or console over Wi-Fi and verify live preview streaming.</p>
+          </article>
+
+          <article class="journey__step">
+            <div class="journey__badge">04</div>
+            <span class="journey__icon" aria-hidden="true">◎</span>
+            <h3 class="card-title">First Capture</h3>
+            <p class="body-md">Complete a practice loop in a small room: walk, scan, and watch the point cloud build live.</p>
+          </article>
+
+          <article class="journey__step">
+            <div class="journey__badge">05</div>
+            <span class="journey__icon" aria-hidden="true">✓</span>
+            <h3 class="card-title">Deliver &amp; Upload</h3>
+            <p class="body-md">Export the scan, upload to the Realsee cloud, and generate a shareable VR-ready space.</p>
+          </article>
+
+          <article class="journey__step">
+            <div class="journey__badge">06</div>
+            <span class="journey__icon" aria-hidden="true">✎</span>
+            <h3 class="card-title">Refine &amp; Edit</h3>
+            <p class="body-md">Trim misaligned points, add measurements, labels, and guided waypoints in the console.</p>
+          </article>
+
+          <article class="journey__step">
+            <div class="journey__badge">07</div>
+            <span class="journey__icon" aria-hidden="true">☁</span>
+            <h3 class="card-title">Cloud &amp; Share</h3>
+            <p class="body-md">Publish to your portfolio, invite collaborators, and track viewing analytics.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CAPTURE STANDARDS ===================== -->
+    <section class="section section--soft" id="capture-standards">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow label-sm">Field Execution</p>
+          <h2 class="section__title">Capture standards that guarantee clean data</h2>
+          <p class="body-md section__sub">
+            Run this checklist before every scan. It takes 90 seconds and prevents 90% of re-shoots.
+          </p>
+        </header>
+
+        <div class="standards">
+          <article class="check-card">
+            <span class="check-card__icon" aria-hidden="true">✓</span>
+            <div>
+              <h3 class="card-title">Keep 0.5–1.5 m scanning distance</h3>
+              <p class="body-md">Stay inside the optimal range band — closer than 0.5 m distorts geometry; beyond 1.5 m thins the point cloud.</p>
+            </div>
+          </article>
+          <article class="check-card">
+            <span class="check-card__icon" aria-hidden="true">✓</span>
+            <div>
+              <h3 class="card-title">Walk a closed loop route</h3>
+              <p class="body-md">Plan a circular path that returns to the start point so the point cloud can close its loop alignment.</p>
+            </div>
+          </article>
+          <article class="check-card">
+            <span class="check-card__icon" aria-hidden="true">✓</span>
+            <div>
+              <h3 class="card-title">Hold the scanner steady &amp; level</h3>
+              <p class="body-md">Keep the device upright and move smoothly — jerky rotations create alignment drift between frames.</p>
+            </div>
+          </article>
+          <article class="check-card">
+            <span class="check-card__icon" aria-hidden="true">✓</span>
+            <div>
+              <h3 class="card-title">Avoid glass &amp; mirrored surfaces</h3>
+              <p class="body-md">Reflective surfaces return no depth data. Mark them in the console and fill gaps from another angle.</p>
+            </div>
+          </article>
+          <article class="check-card">
+            <span class="check-card__icon" aria-hidden="true">✓</span>
+            <div>
+              <h3 class="card-title">Scan with even, ambient light</h3>
+              <p class="body-md">Strong backlight and flickering light degrade texture capture. Prefer diffuse daylight or constant lighting.</p>
+            </div>
+          </article>
+          <article class="check-card">
+            <span class="check-card__icon" aria-hidden="true">✓</span>
+            <div>
+              <h3 class="card-title">Verify live preview continuously</h3>
+              <p class="body-md">Glance at the preview every few seconds — grey “dead zones” should be re-scanned immediately, not later.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== QUICK ACCESS RESOURCES ================== -->
+    <section class="section" id="quick-access-resources">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow label-sm">Quick Access</p>
+          <h2 class="section__title">Resources by task</h2>
+          <p class="body-md section__sub">Jump straight to the guide, tool, or download your current step needs.</p>
+        </header>
+
+        <div class="resources">
+          <article class="resource-card">
+            <span class="resource-card__icon" aria-hidden="true">◎</span>
+            <p class="label-sm resource-card__label">Capture</p>
+            <h3 class="card-title">Field Capture Handbook</h3>
+            <p class="body-md">Route planning, scanning posture, and environment prep for flawless point clouds.</p>
+            <a class="resource-card__cta body-md" href="#">Open handbook <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="resource-card">
+            <span class="resource-card__icon" aria-hidden="true">✎</span>
+            <p class="label-sm resource-card__label">Console / Edit</p>
+            <h3 class="card-title">Console Editor Guide</h3>
+            <p class="body-md">Trim, annotate, measure, and place waypoints — the full editing workflow explained.</p>
+            <a class="resource-card__cta body-md" href="#">Open editor guide <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="resource-card">
+            <span class="resource-card__icon" aria-hidden="true">⇩</span>
+            <p class="label-sm resource-card__label">Downloads</p>
+            <h3 class="card-title">Apps &amp; Firmware</h3>
+            <p class="body-md">Latest console app, mobile companion, and Galois firmware with release notes.</p>
+            <a class="resource-card__cta body-md" href="#">Go to downloads <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="resource-card">
+            <span class="resource-card__icon" aria-hidden="true">▦</span>
+            <p class="label-sm resource-card__label">Capture</p>
+            <h3 class="card-title">Sample Scan Library</h3>
+            <p class="body-md">Study production-ready example spaces before your own first capture session.</p>
+            <a class="resource-card__cta body-md" href="#">Browse samples <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="resource-card">
+            <span class="resource-card__icon" aria-hidden="true">⚑</span>
+            <p class="label-sm resource-card__label">Console / Edit</p>
+            <h3 class="card-title">Measurement &amp; Labeling Kit</h3>
+            <p class="body-md">Templates and conventions for dimensions, room tags, and guided commentary.</p>
+            <a class="resource-card__cta body-md" href="#">Open kit <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="resource-card">
+            <span class="resource-card__icon" aria-hidden="true">✦</span>
+            <p class="label-sm resource-card__label">Downloads</p>
+            <h3 class="card-title">Brand &amp; Embed Assets</h3>
+            <p class="body-md">Logos, embed snippets, and white-label options for client-facing delivery.</p>
+            <a class="resource-card__cta body-md" href="#">Get assets <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="resource-card">
+            <span class="resource-card__icon" aria-hidden="true">◔</span>
+            <p class="label-sm resource-card__label">Capture</p>
+            <h3 class="card-title">Calibration Cheat Sheet</h3>
+            <p class="body-md">One-page reference for IMU, depth, and color calibration checks before each job.</p>
+            <a class="resource-card__cta body-md" href="#">View cheat sheet <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="resource-card">
+            <span class="resource-card__icon" aria-hidden="true">☁</span>
+            <p class="label-sm resource-card__label">Console / Edit</p>
+            <h3 class="card-title">Cloud Publishing Manual</h3>
+            <p class="body-md">Privacy settings, sharing links, and analytics for published VR spaces.</p>
+            <a class="resource-card__cta body-md" href="#">Read manual <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== DELIVERABLES SHOWCASE ================== -->
+    <section class="section" id="deliverables-showcase">
+      <div class="container">
+        <div class="deliverables">
+          <header class="section__head section__head--light">
+            <p class="eyebrow label-sm">Deliverables</p>
+            <h2 class="section__title">What your first project can ship</h2>
+            <p class="body-md section__sub">
+              Select an output to see what a finished Galois project looks like — proof before your first client call.
+            </p>
+          </header>
+
+          <div class="deliverables__grid">
+            <div class="deliverables__chips" role="tablist" aria-label="Deliverable types">
+              <button class="chip is-active" role="tab" aria-selected="true">VR Tour</button>
+              <button class="chip" role="tab" aria-selected="false">Floor Plan</button>
+              <button class="chip" role="tab" aria-selected="false">Point Cloud</button>
+              <button class="chip" role="tab" aria-selected="false">Measurements</button>
+              <button class="chip" role="tab" aria-selected="false">4K Photos</button>
+              <button class="chip" role="tab" aria-selected="false">Embed Link</button>
+            </div>
+
+            <div class="deliverables__preview">
+              <div class="vr-frame" aria-label="VR preview placeholder">
+                <div class="vr-frame__glow"></div>
+                <div class="vr-frame__grid"></div>
+                <p class="vr-frame__label label-sm">VR PREVIEW · 360° WALKTHROUGH</p>
+                <p class="vr-frame__hint">Drag to look around · Scroll to move</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FAQ / TROUBLESHOOTING ==================== -->
+    <section class="section section--soft" id="faq-troubleshooting">
+      <div class="container container--narrow">
+        <header class="section__head">
+          <p class="eyebrow label-sm">Troubleshooting</p>
+          <h2 class="section__title">FAQ for first-time users</h2>
+          <p class="body-md section__sub">Diagnosis, action path, and a deep-link to the full guide for every common issue.</p>
+        </header>
+
+        <div class="faq">
+          <details class="faq__item">
+            <summary class="faq__summary">
+              <span class="card-title">The scanner won't pair with my phone</span>
+              <span class="faq__toggle" aria-hidden="true"></span>
+            </summary>
+            <div class="faq__body body-md">
+              <p><strong>Diagnosis:</strong> the device is on a different network band, or a previous pairing session is stale.</p>
+              <p><strong>Action:</strong> put both devices on the same 2.4 GHz network, toggle Galois Wi-Fi off and on, then retry pairing from the console app.</p>
+              <a class="faq__link" href="#">Deep-link: Connection setup in the full guide →</a>
+            </div>
+          </details>
+
+          <details class="faq__item">
+            <summary class="faq__summary">
+              <span class="card-title">My point cloud has holes and drift</span>
+              <span class="faq__toggle" aria-hidden="true"></span>
+            </summary>
+            <div class="faq__body body-md">
+              <p><strong>Diagnosis:</strong> route didn't close, or the scanner was moved too quickly through feature-poor areas like blank hallways.</p>
+              <p><strong>Action:</strong> re-scan the affected segment walking a closed loop, keep the device level, and add visual anchors (posters, furniture) where surfaces are bare.</p>
+              <a class="faq__link" href="#">Deep-link: Capture standards section →</a>
+            </div>
+          </details>
+
+          <details class="faq__item">
+            <summary class="faq__summary">
+              <span class="card-title">The uploaded space looks blurry on web</span>
+              <span class="faq__toggle" aria-hidden="true"></span>
+            </summary>
+            <div class="faq__body body-md">
+              <p><strong>Diagnosis:</strong> texture compression was applied to a low-light capture, or an outdated app version exported at reduced quality.</p>
+              <p><strong>Action:</strong> update the console app, re-export with "Original quality" enabled, and re-upload under clear, even lighting conditions.</p>
+              <a class="faq__link" href="#">Deep-link: Export &amp; upload settings →</a>
+            </div>
+          </details>
+
+          <details class="faq__item">
+            <summary class="faq__summary">
+              <span class="card-title">Upload stuck at "processing"</span>
+              <span class="faq__toggle" aria-hidden="true"></span>
+            </summary>
+            <div class="faq__body body-md">
+              <p><strong>Diagnosis:</strong> the project exceeds the cloud quota, or the connection dropped mid-transfer.</p>
+              <p><strong>Action:</strong> check quota in Workspace → Storage, switch to a stable network, and use "Resume upload" — processing restarts where it stopped.</p>
+              <a class="faq__link" href="#">Deep-link: Cloud processing status →</a>
+            </div>
+          </details>
+
+          <details class="faq__item">
+            <summary class="faq__summary">
+              <span class="card-title">Measurements don't match the real room</span>
+              <span class="faq__toggle" aria-hidden="true"></span>
+            </summary>
+            <div class="faq__body body-md">
+              <p><strong>Diagnosis:</strong> measurement endpoints were snapped to noisy point cloud edges instead of true surfaces.</p>
+              <p><strong>Action:</strong> zoom into the scan, re-anchor endpoints on flat surface regions, and cross-check against a tape measure on a known wall.</p>
+              <a class="faq__link" href="#">Deep-link: Measurement toolkit guide →</a>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= SUPPORT CTA ======================= -->
+    <section class="section" id="support-cta">
+      <div class="container">
+        <div class="support">
+          <div class="support__content">
+            <p class="eyebrow label-sm">Need a hand?</p>
+            <h2 class="section__title">Stuck mid-setup? Talk to a capture expert.</h2>
+            <p class="body-lg">
+              Our support team responds within one business day — or explore the community knowledge base
+              while you wait.
+            </p>
+            <div class="support__actions">
+              <a class="btn btn--inverted" href="#">Contact support</a>
+              <a class="btn btn--ghost-light" href="#">Visit knowledge base</a>
+            </div>
+          </div>
+          <ul class="support__stats body-md">
+            <li><strong>&lt; 24 h</strong>response time</li>
+            <li><strong>15k+</strong>operators onboarded</li>
+            <li><strong>7/7</strong>steps documented</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner body-md">
+      <p>Realsee Galois · New User Guide (alpha spec)</p>
+      <p>Operational clarity over decoration.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
